@@ -30,6 +30,8 @@ MODERATION_LOGS_FILE = 'moderation_logs.json'
 INVITES_FILE = 'invites.json'
 FOOTER_TEXT = "Scyth // Σκύθ"
 FOOTER_ICON = "https://i.imgur.com/IlA74Ij.png"
+BUMP_CHANNEL_ID = 1399894246374506507  # ID разрешенного канала
+BUMP_BOT_ID = 478321260481478677       # ID Bump Reminder
 
 # Асинхронная загрузка/сохранение данных
 async def load_warnings():
@@ -874,6 +876,18 @@ async def on_invite_delete(invite):
     if invite.code in invites:
         del invites[invite.code]
         await save_invites(invites)
+
+@bot.event
+async def on_message(message):
+    if message.author.id == BUMP_BOT_ID and message.channel.id == BUMP_CHANNEL_ID:
+        await asyncio.sleep(1)
+        try:
+            await message.channel.send("/like")
+            print(f"[Scyth] ✓ Auto-like на бамп в #{message.channel.name}")
+        except Exception as e:
+            print(f"[Scyth] ✗ Ошибка /like: {e}")
+
+    await bot.process_commands(message)
 
 
 # Запуск бота
