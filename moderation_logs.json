@@ -1,0 +1,60 @@
+{
+    "center": [
+        {
+            "action": "Очистка чата",
+            "moderator": "edward.mi",
+            "moderator_name": "edward.mi",
+            "target": "center",
+            "target_name": "center",
+            "reason": "Удалено 65 сообщений",
+            "duration": null,
+            "date": "2026-04-28T22:29:25.425848"
+        },
+        {
+            "action": "Очистка чата",
+            "moderator": "edward.mi",
+            "moderator_name": "edward.mi",
+            "target": "center",
+            "target_name": "center",
+            "reason": "Удалено 7 сообщений",
+            "duration": null,
+            "date": "2026-04-28T23:36:56.837833"
+        }
+    ],
+    "bot-log": [
+        {
+            "action": "Очистка чата",
+            "moderator": "edward.mi",
+            "moderator_name": "edward.mi",
+            "target": "bot-log",
+            "target_name": "bot-log",
+            "reason": "Удалено 9 сообщений",
+            "duration": null,
+            "date": "2026-04-28T22:30:21.175860"
+        }
+    ],
+    "chat": [
+        {
+            "action": "Очистка чата",
+            "moderator": "edward.mi",
+            "moderator_name": "edward.mi",
+            "target": "chat",
+            "target_name": "chat",
+            "reason": "Удалено 35 сообщений",
+            "duration": null,
+            "date": "2026-04-28T22:30:29.801815"
+        }
+    ],
+    "nnatoms": [
+        {
+            "action": "Таймаут",
+            "moderator": "edward.mi",
+            "moderator_name": "edward.mi",
+            "target": "nnatoms",
+            "target_name": "nnatoms",
+            "reason": "Долбаёб",
+            "duration": "15m",
+            "date": "2026-04-28T23:52:11.458522"
+        }
+    ]
+}
