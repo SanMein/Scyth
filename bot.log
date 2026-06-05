@@ -1,0 +1,6 @@
+[2026-05-26 01:30:47,355] WARNING: PyNaCl is not installed, voice will NOT be supported
+[2026-05-26 01:30:47,357] INFO: Запуск бота...
+[2026-05-26 01:30:47,357] INFO: logging in using static token
+[2026-05-26 01:30:50,283] INFO: Shard ID None has connected to Gateway (Session ID: f426d736c7a41cf93ad8d5299b197ace).
+[2026-05-26 01:30:52,305] INFO: Бот запущен: Scyth // Σκύθ
+[2026-05-26 01:42:14,489] INFO: Завершение работы...
