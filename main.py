@@ -13,7 +13,7 @@ from collections import defaultdict
 # ============================================================
 # КОНФИГУРАЦИЯ
 # ============================================================
-GUILD_ID = 1349365796949856265
+GUILD_ID = -
 ADMIN_ROLE_IDS = [-, -, -]
 LOG_CHANNEL_ID = -
 AUDIT_LOG_CHANNEL_ID = -
