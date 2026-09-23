@@ -49,8 +49,9 @@ class AI(commands.Cog, name="AI-ассистент"):
 
     # ---------- RAG-контекст ----------
 
-    async def _build_rag_context(self, question: str, top_k: int = 3) -> str:
+    async def _build_rag_context(self, question: str, top_k: int = 4, min_score: int = 5) -> str:
         hits = await rag.search(question, top_k=top_k)
+        hits = [h for h in hits if h.get("score", 0) >= min_score]
         if not hits:
             return ""
 

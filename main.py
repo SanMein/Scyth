@@ -15,6 +15,7 @@ INITIAL_COGS = [
     'cogs.slash_commands',
     'cogs.mention_react',
     'cogs.ai',
+    'cogs.docs',
 ]
 
 
